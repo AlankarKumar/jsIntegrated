@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1544714395034' stop='1544714400765'>
+    <name>Test Suite : This suite tests the HomePage</name>
+    <title>Test Suite : This suite tests the HomePage</title>
+    <test-cases>
+        <test-case start='1544714395035' status='passed' stop='1544714399677'>
+            <name>Test Case : This tests the page heading</name>
+            <title>Test Case : This tests the page heading</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\alankar\\Desktop\\jsTest\\test\\test_specs\\uiTests\\uitest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1544714395043' status='passed' stop='1544714398727'>
+                    <name>POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/url</name>
+                    <title>POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/url</title>
+                    <attachments>
+                        <attachment title='Request' source='598d2e1a-9a1a-42b6-8a5d-b9f2512d36ed-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='d710fae6-fb44-4388-86e1-6e0d6728b109-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1544714398731' status='passed' stop='1544714399192'>
+                    <name>POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element</name>
+                    <title>POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7ac20a3a-428e-4a9d-a036-4d01c14c3578-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='f79c0d02-d361-410e-9ad5-e8bc9ee4f7d0-attachment.json' type='application/json' size='219'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1544714399197' status='passed' stop='1544714399676'>
+                    <name>GET /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element/0/text</name>
+                    <title>GET /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element/0/text</title>
+                    <attachments>
+                        <attachment title='Response' source='48bad377-1024-437f-b399-be27b5635aa7-attachment.json' type='application/json' size='216'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1544714399678' status='passed' stop='1544714400763'>
+            <name>Test Case : This tests the page subheading</name>
+            <title>Test Case : This tests the page subheading</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\alankar\\Desktop\\jsTest\\test\\test_specs\\uiTests\\uitest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1544714399680' status='passed' stop='1544714400248'>
+                    <name>POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/url</name>
+                    <title>POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5c252351-4961-474a-9433-290815db905f-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='b92af9bf-2bcc-4317-8f39-c7452c20cb04-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1544714400256' status='passed' stop='1544714400291'>
+                    <name>POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element</name>
+                    <title>POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3ec25291-e4b0-4d6a-825e-7d98ece3dbf1-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='b499c9fb-5be5-4451-928e-b1f27616a4f9-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1544714400294' status='passed' stop='1544714400762'>
+                    <name>GET /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element/1/text</name>
+                    <title>GET /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element/1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='4a94f10e-800b-4548-b845-0efc66118263-attachment.json' type='application/json' size='212'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,142 @@
+{
+  "uid" : "725bc296bdea8159",
+  "name" : "Test Case : This tests the page subheading",
+  "fullName" : "Test Suite : This suite tests the HomePage.Test Case : This tests the page subheading",
+  "historyId" : "734ae9a4361e608f5a3555cfee1e9f93",
+  "time" : {
+    "start" : 1544714399678,
+    "stop" : 1544714400763,
+    "duration" : 1085
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/url",
+      "time" : {
+        "start" : 1544714399680,
+        "stop" : 1544714400248,
+        "duration" : 568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99771a0382c8ef5f",
+        "name" : "Request",
+        "source" : "99771a0382c8ef5f.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "40a1b5dccb5d6ee8",
+        "name" : "Response",
+        "source" : "40a1b5dccb5d6ee8.json",
+        "type" : "application/json",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element",
+      "time" : {
+        "start" : 1544714400256,
+        "stop" : 1544714400291,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95ccfaff21cbe3ee",
+        "name" : "Request",
+        "source" : "95ccfaff21cbe3ee.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "bf6138118aa13c67",
+        "name" : "Response",
+        "source" : "bf6138118aa13c67.json",
+        "type" : "application/json",
+        "size" : 221
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /wd/hub/session/815958cf-97a3-4580-8ea2-a26669befc66/element/1/text",
+      "time" : {
+        "start" : 1544714400294,
+        "stop" : 1544714400762,
+        "duration" : 468
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26e62eba54307ce2",
+        "name" : "Response",
+        "source" : "26e62eba54307ce2.json",
+        "type" : "application/json",
+        "size" : 212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite : This suite tests the HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite : This suite tests the HomePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test Case : This tests the page subheading"
+  }, {
+    "name" : "package",
+    "value" : "Test Suite : This suite tests the HomePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "725bc296bdea8159.json",
+  "parameterValues" : [ "firefox" ]
+}

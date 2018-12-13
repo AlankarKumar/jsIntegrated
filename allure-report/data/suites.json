@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test Suite : This suite tests the HomePage",
+    "children" : [ {
+      "name" : "Test Case : This tests the page heading",
+      "uid" : "1c401f1b5e342c43",
+      "parentUid" : "ccb15b1c6ce1a9e68913e9f460d00378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544714395035,
+        "stop" : 1544714399677,
+        "duration" : 4642
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Test Case : This tests the page subheading",
+      "uid" : "725bc296bdea8159",
+      "parentUid" : "ccb15b1c6ce1a9e68913e9f460d00378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544714399678,
+        "stop" : 1544714400763,
+        "duration" : 1085
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    } ],
+    "uid" : "ccb15b1c6ce1a9e68913e9f460d00378"
+  } ]
+}

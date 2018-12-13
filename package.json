@@ -1,0 +1,33 @@
+{
+  "name": "apiframework",
+  "version": "1.0.0",
+  "description": "API TESTING FRAMEWORK",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mocha-allure-reporter",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "author": "Alankar",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.6.1",
+    "allure-commandline": "^2.8.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "superagent-proxy": "^2.0.0",
+    "supertest": "^3.3.0",
+    "webdriverio": "^4.14.1"
+  },
+  "devDependencies": {
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-firefox-profile-service": "^0.1.3",
+    "wdio-mocha-framework": "^0.6.4"
+  }
+}

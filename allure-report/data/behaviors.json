@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Case : This tests the page heading",
+    "uid" : "1c401f1b5e342c43",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1544714395035,
+      "stop" : 1544714399677,
+      "duration" : 4642
+    },
+    "flaky" : false,
+    "parameters" : [ "firefox" ]
+  }, {
+    "name" : "Test Case : This tests the page subheading",
+    "uid" : "725bc296bdea8159",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1544714399678,
+      "stop" : 1544714400763,
+      "duration" : 1085
+    },
+    "flaky" : false,
+    "parameters" : [ "firefox" ]
+  } ]
+}

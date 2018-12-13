@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":5,\"browserName\":\"firefox\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"C:\\\\Users\\\\alankar\\\\Desktop\\\\jsTest\\\\test\\\\test_specs\\\\uiTests\\\\uitest.js\"]" ],
+  "name" : "spec files"
+} ]
